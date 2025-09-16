@@ -1,0 +1,20 @@
+-r requirements.txt
+
+# Unit Test modules
+pytest
+pytest-mock
+coverage
+
+# Technical Analysis (needed for VixHelper and other TA components)
+pandas_ta
+
+# Linting modules
+ruff
+isort
+
+# Security checkers
+bandit
+safety
+
+# Secret Storage
+python-dotenv
